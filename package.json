@@ -18,6 +18,9 @@
     "bugs": {
         "url": "http://github.com/gcommer/node-ssq/issues"
     },
+    "dependencies": {
+        "bufferpack": "~0.0.6"
+    },
     "licenses": [{ "type": "BSD" }],
     "main": "./lib/ssq.js"
 }
