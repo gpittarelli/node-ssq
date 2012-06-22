@@ -13,7 +13,7 @@
         "url": "git://github.com/gcommer/node-ssq.git"
     },
     "engines": {
-        "node": ">= 0.6.13 && <= 0.8.x"
+        "node": ">= 0.6.13"
     },
     "bugs": {
         "url": "http://github.com/gcommer/node-ssq/issues"
