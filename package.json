@@ -1,0 +1,24 @@
+{
+    "name": "ssq",
+    "description": "Source Server Queries for Node.JS",
+    "version": "0.0.1",
+    "homepage": "http://github.com/gcommer/node-ssq",
+    "author": {
+        "name": "George Pittarelli",
+        "url": "gpittarelli.com"
+        "email": "george@gpittarelli.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gcommer/node-ssq.git"
+    },
+    "devDependencies": {
+    },
+    "engines": {
+        "node": ">= 0.6.13 && <= 0.8.x"
+    },
+    "scripts": {
+    },
+    "licenses": [{ "type": "BSD" }],
+    "main": "./lib/ssq.js"
+}
