@@ -18,7 +18,8 @@ Neither of these modes are currently supported. If you see an error like:
 
     SSQ response used unsupported split packet mode.
 
-then you're out of luck. Currently I only get this message when requesting the rules list from some servers.
+then you're out of luck. Currently I only get this message when
+requesting the rules list from some servers.
 
 ## API
 The API is very simple. All functions are passed a server string
@@ -29,6 +30,18 @@ as the second parameter.
 All the below examples assume this library is imported as `ssq`:
 
     var ssq = require('node-ssq');
+
+### Request timeout
+
+    ssq.set_timeout(1500);
+
+Sets the timeout in milliseconds (ms) for all SSQ requests (Default:
+2000ms, available as ssq.DEFAULT_TIMEOUT). Because SSQ requests are
+sent over UDP instead of TCP, timeouts are the only way of determining
+if a request has failed.
+
+Note: If data that comes in after a timeout has expired will be
+silently dropped.
 
 ### Ping
 
