@@ -28,6 +28,6 @@
         "mocha": "~1.2.0"
     },
     "scripts": {
-        "test": ".\\node_modules\\.bin\\mocha ./tests --reporter spec"
+        "test": "node_modules/.bin/mocha ./tests --reporter spec"
     }
 }
